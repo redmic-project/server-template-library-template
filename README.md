@@ -1,4 +1,9 @@
-[![pipeline status](https://git.redmic.net/redmic-server/template/badges/dev/pipeline.svg)](https://git.redmic.net/redmic-server/template/commits/dev) [![coverage report](https://git.redmic.net/redmic-server/template/badges/dev/coverage.svg)](https://git.redmic.net/redmic-server/template/commits/dev)
+# Template
+
+| Metrics | Master | Develop |
+|:-:|:-:|:-:|
+| CI status | [![pipeline status](https://gitlab.com/redmic-project/server/library/template/badges/master/pipeline.svg)](https://gitlab.com/redmic-project/server/library/template/commits/master) | [![pipeline status](https://gitlab.com/redmic-project/server/library/template/badges/dev/pipeline.svg)](https://gitlab.com/redmic-project/server/library/template/commits/dev) |
+| Test coverage | [![coverage report](https://gitlab.com/redmic-project/server/library/template/badges/master/coverage.svg)](https://gitlab.com/redmic-project/server/library/template/commits/master) | [![coverage report](https://gitlab.com/redmic-project/server/library/template/badges/dev/coverage.svg)](https://gitlab.com/redmic-project/server/library/template/commits/dev) |
 
 Este proyecto sirve de guía para la creación de una nueva librería.
 
@@ -16,3 +21,5 @@ Este proyecto sirve de guía para la creación de una nueva librería.
 5. Añadir en `src/test/java/es/redmic/` y `src/main/java/es/redmic/` un nuevo package con el nombre de la librería, como base donde se añadirá el código.
 
 6. Añadir al fichero `pom.xml` del proyecto padre (`es.redmic.lib.libs`), el nombre de la nueva librería.
+
+7. Actualizar la tabla inicial de estado, eliminar estas instrucciones y documentar adecuadamente.
